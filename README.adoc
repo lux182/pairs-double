@@ -45,7 +45,7 @@ Lastly, we want this server to run as a backend, so we'll give it a non-default 
 .application.properties
 [source,properties]
 ----
-server.port: 8081
+server.port: 8091
 security.sessions: NEVER
 ----
 
@@ -58,7 +58,7 @@ The Resource server is easy to generate from one of our existing samples. It is 
 .application.properties
 [source,properties]
 ----
-server.port: 9000
+server.port: 9010
 security.sessions: NEVER
 ----
 
@@ -97,9 +97,9 @@ Starting from the blank Initializr application, we add the Spring Session depend
 zuul:
   routes:
     ui:
-      url: http://localhost:8081
+      url: http://localhost:8091
    resource:
-      url: http://localhost:9000
+      url: http://localhost:9010
 security:
   user:
     password:
@@ -254,11 +254,11 @@ There is a new component (Admin) and a new route in the Gateway in `application.
 zuul:
   routes:
     ui:
-      url: http://localhost:8081
+      url: http://localhost:8091
     admin:
-      url: http://localhost:8082
+      url: http://localhost:8092
     resource:
-      url: http://localhost:9000
+      url: http://localhost:9010
 ----
 
 The fact that the existing UI is available to users in the "USER" role is indicated on the block diagram above in the Gateway box (green lettering), as is the fact that the "ADMIN" role is needed to go to the Admin application. The access decision for the "ADMIN" role could be applied in the Gateway, in which case it would appear in a `WebSecurityConfigurerAdapter`, or it could be applied in the Admin application itself (and we will see how to do that below).

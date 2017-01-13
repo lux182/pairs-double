@@ -1,0 +1,205 @@
+{
+  "code": 200,
+  "msg": "获取列表数据",
+  "banners": [
+    {
+      "id": "001",
+      "href": "www.baidu.com",
+      "imgUrl": "img/index/banner1.jpg"
+    },
+    {
+      "id": "002",
+      "href": "www.baidu.com",
+      "imgUrl": "img/index/banner2.jpg"
+    },
+    {
+      "id": "003",
+      "href": "www.baidu.com",
+      "imgUrl": "img/index/banner3.jpg"
+    },
+    {
+      "id": "004",
+      "href": "www.baidu.com",
+      "imgUrl": "img/index/banner4.jpg"
+    },
+    {
+      "id": "005",
+      "href": "www.baidu.com",
+      "imgUrl": "img/index/banner5.jpg"
+    },
+    {
+      "id": "006",
+      "href": "www.baidu.com",
+      "imgUrl": "img/index/banner6.jpg"
+    },
+    {
+      "id": "007",
+      "href": "www.baidu.com",
+      "imgUrl": "img/index/banner7.jpg"
+    }
+  ],
+  "activitys": [
+    {
+      "id": "001",
+      "href": "",
+      "imgUrl": "img/index/activity1.png"
+    },
+    {
+      "id": "002",
+      "href": "",
+      "imgUrl": "img/index/activity2.png"
+    },
+    {
+      "id": "003",
+      "href": "",
+      "imgUrl": "img/index/activity3.png"
+    }
+  ],
+  "timelimits": [
+    {
+      "id": "001",
+      "href": "resource",
+      "loadingUrl": "img/loading.gif",
+      "imgUrl": "img/index/timelimit1.png",
+      "title": "2014年Cosme大赏最受欢迎的纸尿裤",
+      "subtitle": "moony尤妮佳L 50片/包 2包装 男宝宝用拉拉裤",
+      "pieces": "2",
+      "price": "160",
+      "originalPrice": "298",
+      "stock": "115"
+    },
+    {
+      "id": "002",
+      "href": "resource",
+      "loadingUrl": "img/loading.gif",
+      "imgUrl": "img/index/timelimit2.png",
+      "title": "我的时刻 我的世界",
+      "subtitle": "CITIZEN 西铁城 光动能小牛皮表带男表AO999-06B",
+      "pieces": "",
+      "price": "999",
+      "originalPrice": "2300",
+      "stock": "83"
+    },
+    {
+      "id": "003",
+      "href": "resource",
+      "loadingUrl": "img/loading.gif",
+      "imgUrl": "img/index/timelimit3.png",
+      "title": "小朋友肠道健康的小卫士",
+      "subtitle": "Culturelle 康萃乐 婴幼儿益生菌粉 30袋/盒 2盒",
+      "pieces": "2",
+      "price": "246",
+      "originalPrice": "336",
+      "stock": "437"
+    },
+    {
+      "id": "004",
+      "href": "resource",
+      "loadingUrl": "img/loading.gif",
+      "imgUrl": "img/index/timelimit4.png",
+      "title": "轻薄如莎 摄像头保护 防滑防指纹",
+      "subtitle": "MOMAX摩米士iphone6/6s/6plus/6s plus 苹果手机壳套",
+      "pieces": "",
+      "price": "68",
+      "originalPrice": "198",
+      "stock": "83"
+    }
+  ],
+  "timelimit_right": {
+    "id": "001",
+    "href": "",
+    "imgUrl": "img/index/timelimit5.png"
+  },
+  "everydays": [
+    {
+      "id": "001",
+      "href": "details.html",
+      "loadingUrl": "img/loading.gif",
+      "imgUrl": "img/index/everyday1.jpg",
+      "country_pic": "img/index/jp.png",
+      "title": "Salonpas 撒隆巴斯 关节颈肩 舒缓肌肉酸痛",
+      "subtitle": "一片起效 速效止痛",
+      "pieces": "",
+      "price": "119",
+      "originalPrice": "250",
+      "stock": "115"
+    },
+    {
+      "id": "002",
+      "href": "resource",
+      "loadingUrl": "img/loading.gif",
+      "imgUrl": "img/index/everyday2.jpg",
+      "country_pic": "img/index/usa.png",
+      "title": "COACH 寇驰 女士单肩斜挎包",
+      "subtitle": "美国高端生活方式时尚品牌",
+      "pieces": "",
+      "price": "1599",
+      "originalPrice": "3590",
+      "stock": "83"
+    },
+    {
+      "id": "003",
+      "href": "resource",
+      "loadingUrl": "img/loading.gif",
+      "imgUrl": "img/index/everyday3.jpg",
+      "country_pic": "img/index/usa.png",
+      "title": "ElizabethArden 伊丽莎白雅顿 显效符合活",
+      "subtitle": "集万千宠爱 缔造面霜传奇",
+      "pieces": "2",
+      "price": "189",
+      "originalPrice": "450",
+      "stock": "437"
+    },
+    {
+      "id": "004",
+      "href": "resource",
+      "loadingUrl": "img/loading.gif",
+      "imgUrl": "img/index/everyday4.jpg",
+      "country_pic": "img/index/usa.png",
+      "title": "thinkbaby 新克宝贝 不锈钢餐盒 含叉勺 粉丝",
+      "subtitle": "宝宝健康餐具 妈妈放心选择",
+      "pieces": "",
+      "price": "185",
+      "originalPrice": "228",
+      "stock": "83"
+    }
+  ],
+  "hots": [
+    {
+      "id": "001",
+      "href": "resource",
+      "loadingUrl": "img/loading.gif",
+      "imgUrl": "img/index/hot1.jpg",
+      "icon": "img/index/hotIcon1.jpg",
+      "title": "Bubs 澳洲贝儿",
+      "subtitle": "富含羊乳清蛋白更易吸收"
+    },
+    {
+      "id": "002",
+      "href": "resource",
+      "loadingUrl": "img/loading.gif",
+      "imgUrl": "img/index/hot2.jpg",
+      "icon": "img/index/hotIcon2.jpg",
+      "title": "JBL",
+      "subtitle": "音乐无极限体验"
+    },
+    {
+      "id": "003",
+      "href": "resource",
+      "loadingUrl": "img/loading.gif",
+      "imgUrl": "img/index/hot3.jpg",
+      "icon": "img/index/hotIcon3.jpg",
+      "title": "ORIHIRO NIGHT DIET新谷酵素",
+      "subtitle": "健康好酵素，睡着也能瘦"
+    }
+  ],
+  "hot_right": {
+    "id": "004",
+    "href": "resource",
+    "loadingUrl": "img/loading.gif",
+    "imgUrl": "img/index/hot4.jpg",
+    "icon": "img/index/hotIcon4.jpg",
+    "title": "",
+    "subtitle": ""
+  }
+}

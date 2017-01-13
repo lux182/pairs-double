@@ -38,8 +38,8 @@ public class UiApplication {
 			http
 				.httpBasic().and()
 				.authorizeRequests()
-					.antMatchers("/index.html", "/").permitAll()
-					.anyRequest().hasRole("USER");
+					.antMatchers("/index.html", "/").permitAll();
+//					.anyRequest().hasRole("USER");
 			// @formatter:on
 		}
 	}

@@ -10,6 +10,8 @@ import org.springframework.boot.test.context.SpringBootTest.WebEnvironment;
 import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
@@ -26,6 +28,12 @@ public class ApplicationTests {
 		ResponseEntity<String> response = template.getForEntity("http://localhost:"
 				+ port + "/", String.class);
 		assertEquals(HttpStatus.OK, response.getStatusCode());
+	}
+	@Test
+	public void md5(){
+		PasswordEncoder encoder = new BCryptPasswordEncoder();
+		System.out.println(encoder.encode("123456"));
+
 	}
 
 }
